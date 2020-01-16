@@ -14,14 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-height: 900vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+
+.halfScreen {
+  /* flex:1; */
+  height: 100%;
+  border-color: #61dafb;
+  border-style: solid;
+  margin: 10px;
 }
 
 .App-link {
